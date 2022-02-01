@@ -57,7 +57,6 @@ body {
 }
 #check-bmi {
   width: 150px;
-
   background: #fecb0a; /* fallback for old browsers */
 }
 #check-bmi:hover {
