@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #588D80;
+}
+.body{
+    height: 80vh;
+    padding: 20px;
+    width: 30%;
+    font-size: 28px;
+    background-color: white;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px ;
+}
+.body input{
+    padding: 2px;
+    text-decoration: none;
+    border-style: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    width: 100px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #9AA2A8;
+}
+.weight-div{
+    padding: 10px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #342F3C;
+}
+.height-div{
+    padding: 10px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+#check-bmi{
+    padding: 10px;
+    border-radius: 50px;
+    outline: none;
+    border-style: none;
+    background-color: white;
+    width: 150px;
+    transform: 1s;
+    color: white;
+    font-weight: bolder;
+    background: #FECB0A;  /* fallback for old browsers */
+    
+}
+#check-bmi:hover{
+    cursor: pointer;
+}
+#reset{
+    padding: 10px;
+    border-radius: 50px;
+    outline: none;
+    border-style: none;
+    background-color: white;
+    width: 100px;
+    transform: 1s;
+    color: white;
+    font-weight: bolder;
+    background: #233545;
+}
+#reset:hover{
+    cursor: pointer;
+}
+.head{
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    color: #8D7C7D;
+}
+#bmi, #result{
+    font-size: 18px;
+    font-weight: bold;
+    color: #9AA2A8;
+}
+
+
+@media screen and (max-width: 1060px) {
+   .body{
+       width: 50%;
+   }
+  }
+
+@media screen and (max-width: 630px) {
+    .body {
+      width: 80%;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .body {
+      width: 60%;
+    }
+  }
+  @media screen and (max-width: 530px) {
+    .body {
+      width: 90%;
+    }
+    .head{
+        font-size: 22px;
+    }
+    .height-div{
+        font-size: 20px;
+    }
+    .weight-div{
+        font-size: 20px;
+    }
+     #height-feet{
+        margin-bottom: 8px;
+    }
+  }
